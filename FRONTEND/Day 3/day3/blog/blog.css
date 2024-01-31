@@ -1,0 +1,53 @@
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+.blog .text {
+  /* padding: 40px 30px; */
+  padding: 20px 20px 0px 20px;
+}
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+.blog h1:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+.blog span:nth-last-child(1) label {
+  color: #1eb2a6;
+}
+.blog p {
+  color: grey;
+}
+/* Add this to your blog.css or relevant styling file */
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.items {
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.items:hover {
+  transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+/* Rest of your existing styles... */
