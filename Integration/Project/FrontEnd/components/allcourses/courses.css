@@ -1,0 +1,190 @@
+.coursesCard {
+  padding: 50px 0;
+}
+.coursesCard .items {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* background-color: #16213E; */
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.coursesCard .details span {
+  color: #1eb2a6;
+  font-weight: 500;
+  font-size: 14px;
+}
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.coursesCard h3 {
+  font-weight: 500;
+  color: #384140;
+}
+/*-------------online---------*/
+.online {
+  text-align: center;
+}
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: 0.5s;
+  
+}
+.online .box1 {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: 0.5s;
+  border-radius: 80%;
+  height: 150px;
+  width: 150px;
+  
+}
+.online .img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1eb2a6;
+  border-radius: 5px;
+}
+.online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color: #FBA1B7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: #fff;
+}
+.online .box1 .show {
+  opacity: 0;
+}
+.online .box1:hover {
+  background-color: #ead2d8;
+  border-radius: 85%;
+  cursor: pointer;
+}
+.online .box1:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box1:hover h1 {
+  color: #fff;
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+}
+/* RatingStars.css */
+.rating-stars {
+  display: inline-flex;
+  align-items: center;
+}
+
+.star {
+  color: #f39c12; /* Adjust the color as needed */
+  margin-right: 4px; /* Adjust spacing between stars */
+}
+/* App.css */
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card-payment, .upi-payment {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+/* Add these styles to your CSS */
+.custom-button {
+  padding: 17px 30px;
+  background-color: #5d5dde;
+  color: #f8f8f8;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+  
+}
+
+.custom-button:hover {
+  box-shadow: none;
+  
+}
+
+
+/* Add more styling as needed */
